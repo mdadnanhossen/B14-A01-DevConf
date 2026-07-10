@@ -15,7 +15,7 @@ img{
 .btn-primary{
     color: #FFFFFF;
     background-color: #1D4ED8;
-    font-weight: 700px;
+    font-weight: 700;
     padding: 12px 40px;
     border-radius: 12px;
     border: none;
@@ -29,7 +29,7 @@ nav{
     margin: 0 115px;
 }
 .nav-logo{
-    font-weight:134px;
+    font-weight:134;
     font-size: 45px;
 
 }
@@ -49,7 +49,7 @@ nav ul{
 
 /* banner part */
 .banner{
-    background-image: url("/assets/banner.jpg");
+    background-image: url("./assets/banner.jpg");
     background-repeat: no-repeat;
      background-position: center;
      
@@ -69,11 +69,11 @@ nav ul{
 .banner-title{
     color: #FFFFFF;
     font-size: 80px;
-    padding: 135px 250px 16px 340px
+    padding: 135px 250px 16px 340px;
     /* margin: 0 250px 0 340px; */
 }
 .connect{
-    font-weight:700px;
+    font-weight:700;
     font-style: italic;
 }
 .banner-description{
@@ -101,10 +101,10 @@ nav ul{
     padding:80px 450px 56px 450px;
 
     /* align-items: center; */
-   justify-content: center;
-   font-size: 56px;
-   font-weight: 700;
-   clear:#000102
+    justify-content: center;
+    font-size: 56px;
+    font-weight: 700;
+    /* color:#000102 */
 }
 .picture{
     margin-top: 80px;
@@ -126,7 +126,7 @@ nav ul{
 .job{
     color: #2563EB;
     font-size: 12px;
-    font-weight: 600px;
+    font-weight: 600;
     padding: 24px 550px 8px 24px;
 }
 .job2{
@@ -134,7 +134,7 @@ nav ul{
 }
 .name{
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
     color: #0D1B2A;
     padding: 8px 0 8px 24px;
 }
@@ -201,7 +201,7 @@ nav ul{
     font-size: 44px;
 }
 .spot-greetings3 h2{
-    color:#000102#FFFFFF;
+    color:#000102;
     font-weight: 800;
     font-size: 44px;
 }
