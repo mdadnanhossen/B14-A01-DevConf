@@ -2,12 +2,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
 }
-.inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
+
 img{
     max-width: 100%;
 }
@@ -57,7 +54,7 @@ nav ul{
      background-position: center;
      
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     /* width:1550px;
     height: 780px; */
     
@@ -145,3 +142,242 @@ nav ul{
     font-size: 14px;
     padding: 8px 0px 24px 24px;
 }
+/* Secure Your Spot */
+.all-spot{
+    max-width: 1200px;
+    margin: auto;
+    /* margin-left: 500px;
+    margin-right: 190px; */
+}
+.spot{
+    text-align: center;
+
+}
+.spot-head{
+    font-weight: 700;
+    color: #0D1B2A;
+    font-size: 48px;
+    padding: 50px 0 10px 0;
+}
+.spot-para{
+    padding: 5px 0 20px 0;
+    color: #575757;
+}
+.spot-content{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+.gallery2{
+    padding:20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB 
+}
+.level{
+     font-size: 13px;
+     font-weight: 600;
+     color: #888888;
+}
+.level2{
+     font-size: 13px;
+     font-weight: 600;
+     color: #93C5FD;
+}
+.spot-greetings h2{
+    color: #0D1B2A;
+    font-weight: 800;
+    font-size: 44px;
+}
+.spot-greetings2 h2{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 44px;
+}
+.spot-greetings3 h2{
+    color:#000102#FFFFFF;
+    font-weight: 800;
+    font-size: 44px;
+}
+.person{
+    color: #888888;
+    font-size: 13px;
+    font-weight:400;
+}
+.line{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    padding: 0 0 10px 0;
+}
+.spot-greetings ul li::marker{
+   /* list-style: disc; */
+   color: #1D4ED8;
+    
+}
+.spot-greetings ul li{
+    color: #333333;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 0 10px 0
+}
+.spot-greetings2{
+    background-color: #0D1B2A;
+}
+
+.spot-greetings2 ul li::marker{
+    color: #1D4ED8;
+}
+.spot-greetings2 ul li{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 0 10px 0
+}
+.spot-greetings3 ul li::marker{
+    color: #1D4ED8;
+}
+.spot-greetings3 ul li{
+    color: #333333;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 0 10px 0
+}
+.btn{
+    padding: 10px 50px 10px 50px;
+    align-items: center;
+    justify-content: center;
+    color: #1D4ED8;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    border-color:#1D4ED8;
+}
+.btn2{
+    padding: 10px 50px 10px 50px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1D4ED8;
+}
+.btn3{
+    padding: 10px 50px 10px 50px;
+    align-items: center;
+    justify-content: center;
+    color: #000102;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+
+    border-color: #000102;
+}
+.schedule{
+    max-width: 1200px;
+    margin: 80px auto;
+    
+    padding: 20px;
+    background-image: url(./assets/schedules.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+     
+    background-size: cover;
+}
+
+.schedule-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.schedule-title h2{
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.schedule-title p{
+    color: #d7c1eb;
+}
+
+.schedule-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.schedule-card{
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.schedule-card h3{
+    margin-bottom: 5px;
+}
+
+.schedule-card span{
+    color: #6366F1;
+    font-weight: 600;
+}
+
+.schedule-card ul{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.schedule-card li{
+    margin-bottom: 12px;
+}
+.footer{
+    background-color: #0D1B2A;
+    display: flex;
+    justify-content: space-between;
+    align-items:self-end; 
+}
+.footer-title{
+    width: 50%;
+    padding: 70px 30px 20px ;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-icons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10%;
+}
+.footer-icons a :hover{
+    color: bisque;
+}
+.footer-details ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footer-details ul li a{
+    text-decoration: none;
+    margin: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.footer-bottom{
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+
