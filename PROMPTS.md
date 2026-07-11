@@ -1,0 +1,1 @@
+I'm building a DevConf 2026 website. I've already created the Hero section, Speakers section, and Pricing sections. Just suggest the next section that would make the website feel complete and explain what should be inside it.

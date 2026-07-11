@@ -282,6 +282,7 @@ nav ul{
     border-color: #000102;
 }
 /* end 3 btn for speakers */
+/* start scheduling */
 .schedule{
     max-width: 1200px;
     margin: 80px auto;
@@ -334,10 +335,25 @@ nav ul{
 .schedule-card ul{
     margin-top: 20px;
     padding-left: 20px;
+    
+}
+.schedule-card ul li::marker{
+    color: #1D4ED8;
 }
 
 .schedule-card li{
     margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.new-design{
+    background-color: #000102;
+}
+.new-design ul li{
+    color: #FFFFFF;
+}
+.new-design h3{
+    color: #FFFFFF;
 }
 .footer{
     background-color: #0D1B2A;
